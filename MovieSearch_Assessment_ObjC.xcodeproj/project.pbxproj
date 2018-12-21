@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		1B40ABF021CD483000C36720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B40ABEF21CD483000C36720 /* AppDelegate.m */; };
-		1B40ABF321CD483000C36720 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B40ABF221CD483000C36720 /* ViewController.m */; };
 		1B40ABF621CD483000C36720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B40ABF421CD483000C36720 /* Main.storyboard */; };
 		1B40ABF821CD483100C36720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B40ABF721CD483100C36720 /* Assets.xcassets */; };
 		1B40ABFB21CD483100C36720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B40ABF921CD483100C36720 /* LaunchScreen.storyboard */; };
 		1B40ABFE21CD483100C36720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B40ABFD21CD483100C36720 /* main.m */; };
+		1B40AC0C21CD4CFC00C36720 /* SHLMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B40AC0B21CD4CFC00C36720 /* SHLMovie.m */; };
+		1B40AC1021CD4D1100C36720 /* SHLMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B40AC0F21CD4D1100C36720 /* SHLMovieController.m */; };
+		1B40AC1321CD4D3300C36720 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B40AC1221CD4D3300C36720 /* MovieListTableViewController.swift */; };
+		1B40AC1521CD4D4500C36720 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B40AC1421CD4D4500C36720 /* MovieTableViewCell.swift */; };
+		1B40AC1721CD605A00C36720 /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B40AC1621CD605A00C36720 /* APIKeys.plist */; };
+		1B40AC1921CD74DD00C36720 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B40AC1821CD74DD00C36720 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B40ABEB21CD483000C36720 /* MovieSearch_Assessment_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSearch_Assessment_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B40ABEE21CD483000C36720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B40ABEF21CD483000C36720 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B40ABF121CD483000C36720 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1B40ABF221CD483000C36720 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1B40ABF521CD483000C36720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B40ABF721CD483100C36720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B40ABFA21CD483100C36720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B40ABFC21CD483100C36720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B40ABFD21CD483100C36720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B40AC0A21CD4CFC00C36720 /* SHLMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLMovie.h; sourceTree = "<group>"; };
+		1B40AC0B21CD4CFC00C36720 /* SHLMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLMovie.m; sourceTree = "<group>"; };
+		1B40AC0E21CD4D1100C36720 /* SHLMovieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLMovieController.h; sourceTree = "<group>"; };
+		1B40AC0F21CD4D1100C36720 /* SHLMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLMovieController.m; sourceTree = "<group>"; };
+		1B40AC1121CD4D3300C36720 /* MovieSearch_Assessment_ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieSearch_Assessment_ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		1B40AC1221CD4D3300C36720 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		1B40AC1421CD4D4500C36720 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		1B40AC1621CD605A00C36720 /* APIKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		1B40AC1821CD74DD00C36720 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +70,64 @@
 		1B40ABED21CD483000C36720 /* MovieSearch_Assessment_ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				1B40ABEE21CD483000C36720 /* AppDelegate.h */,
-				1B40ABEF21CD483000C36720 /* AppDelegate.m */,
-				1B40ABF121CD483000C36720 /* ViewController.h */,
-				1B40ABF221CD483000C36720 /* ViewController.m */,
-				1B40ABF421CD483000C36720 /* Main.storyboard */,
-				1B40ABF721CD483100C36720 /* Assets.xcassets */,
-				1B40ABF921CD483100C36720 /* LaunchScreen.storyboard */,
-				1B40ABFC21CD483100C36720 /* Info.plist */,
-				1B40ABFD21CD483100C36720 /* main.m */,
+				1B40AC0621CD4CBC00C36720 /* Model */,
+				1B40AC0821CD4CCF00C36720 /* Model Controllers */,
+				1B40AC0921CD4CE200C36720 /* View Controllers */,
+				1B40AC0521CD485800C36720 /* UI */,
+				1B40AC0421CD485100C36720 /* Resources */,
 			);
 			path = MovieSearch_Assessment_ObjC;
+			sourceTree = "<group>";
+		};
+		1B40AC0421CD485100C36720 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B40ABEE21CD483000C36720 /* AppDelegate.h */,
+				1B40ABEF21CD483000C36720 /* AppDelegate.m */,
+				1B40ABF721CD483100C36720 /* Assets.xcassets */,
+				1B40ABFC21CD483100C36720 /* Info.plist */,
+				1B40ABFD21CD483100C36720 /* main.m */,
+				1B40AC1621CD605A00C36720 /* APIKeys.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B40AC0521CD485800C36720 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1B40ABF421CD483000C36720 /* Main.storyboard */,
+				1B40ABF921CD483100C36720 /* LaunchScreen.storyboard */,
+				1B40AC1421CD4D4500C36720 /* MovieTableViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1B40AC0621CD4CBC00C36720 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B40AC0A21CD4CFC00C36720 /* SHLMovie.h */,
+				1B40AC0B21CD4CFC00C36720 /* SHLMovie.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B40AC0821CD4CCF00C36720 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B40AC0E21CD4D1100C36720 /* SHLMovieController.h */,
+				1B40AC0F21CD4D1100C36720 /* SHLMovieController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		1B40AC0921CD4CE200C36720 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B40AC1221CD4D3300C36720 /* MovieListTableViewController.swift */,
+				1B40AC1821CD74DD00C36720 /* MovieDetailViewController.swift */,
+				1B40AC1121CD4D3300C36720 /* MovieSearch_Assessment_ObjC-Bridging-Header.h */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,11 +156,13 @@
 		1B40ABE321CD483000C36720 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SHL;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Steve Lederer";
 				TargetAttributes = {
 					1B40ABEA21CD483000C36720 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -129,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B40ABFB21CD483100C36720 /* LaunchScreen.storyboard in Resources */,
+				1B40AC1721CD605A00C36720 /* APIKeys.plist in Resources */,
 				1B40ABF821CD483100C36720 /* Assets.xcassets in Resources */,
 				1B40ABF621CD483000C36720 /* Main.storyboard in Resources */,
 			);
@@ -141,9 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B40ABF321CD483000C36720 /* ViewController.m in Sources */,
 				1B40ABFE21CD483100C36720 /* main.m in Sources */,
+				1B40AC0C21CD4CFC00C36720 /* SHLMovie.m in Sources */,
+				1B40AC1521CD4D4500C36720 /* MovieTableViewCell.swift in Sources */,
+				1B40AC1021CD4D1100C36720 /* SHLMovieController.m in Sources */,
+				1B40AC1921CD74DD00C36720 /* MovieDetailViewController.swift in Sources */,
 				1B40ABF021CD483000C36720 /* AppDelegate.m in Sources */,
+				1B40AC1321CD4D3300C36720 /* MovieListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +351,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56CLV9J785;
-				INFOPLIST_FILE = MovieSearch_Assessment_ObjC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MovieSearch_Assessment_ObjC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stevelederer.MovieSearch-Assessment-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovieSearch_Assessment_ObjC/View Controllers/MovieSearch_Assessment_ObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,15 +372,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56CLV9J785;
-				INFOPLIST_FILE = MovieSearch_Assessment_ObjC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MovieSearch_Assessment_ObjC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stevelederer.MovieSearch-Assessment-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovieSearch_Assessment_ObjC/View Controllers/MovieSearch_Assessment_ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
