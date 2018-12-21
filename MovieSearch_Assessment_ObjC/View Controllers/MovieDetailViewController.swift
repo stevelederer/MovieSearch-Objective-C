@@ -17,8 +17,6 @@ class MovieDetailViewController: UIViewController {
     @IBOutlet weak var posterImageView: UIImageView!
     @IBOutlet weak var overviewTextView: UITextView!
     
-    // MARK: - Dependency
-    
     var movie: SHLMovie? {
         didSet {
             getImage()
@@ -34,6 +32,8 @@ class MovieDetailViewController: UIViewController {
         updateViews()
     }
     
+    // MARK: - Setup
+    
     func getImage() {
         guard let movie = movie else { return }
         SHLMovieController.fetchPosterImage(for: movie) { (image) in
@@ -44,6 +44,7 @@ class MovieDetailViewController: UIViewController {
             }
         }
     }
+    
     func updateViews() {
         guard isViewLoaded else { return }
         guard let movie = movie else { return }
@@ -54,6 +55,4 @@ class MovieDetailViewController: UIViewController {
         posterImageView.image = posterPhoto
         overviewTextView.text = movie.overview
     }
-    
-
 }
