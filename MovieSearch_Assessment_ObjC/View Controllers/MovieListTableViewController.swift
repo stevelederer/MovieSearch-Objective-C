@@ -80,4 +80,17 @@ extension MovieListTableViewController: UISearchBarDelegate {
             }
         }
     }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        let searchTerm = searchBar.text ?? ""
+        
+        SHLMovieController.fetchAllMovies(forSearchTerm: searchTerm) { (movies) in
+            guard let fetchedMovies = movies else { return }
+            self.movies = fetchedMovies
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+                self.navigationItem.hidesSearchBarWhenScrolling = true
+            }
+        }
+    }
 }
